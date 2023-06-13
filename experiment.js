@@ -281,7 +281,7 @@ var missed_response_thresh = 0.10;
 var accuracy_thresh = 0.75;
 
 var fileTypePNG = ".png'></img>"
-var preFileType = "<img class = center src='/static/experiments/cued_task_switching_single_task_network/images/"
+var preFileType = "<img class = center src='./images/"
 
 //set up block stim. correct_responses indexed by [block][stim][type]
 var tasks = {
@@ -339,7 +339,7 @@ var prompt_task_list = '<ul style="text-align:left"><li><i>Parity</i> or <i>Odd-
 
 
 //PRE LOAD IMAGES HERE
-var pathSource = "/static/experiments/cued_task_switching_single_task_network/images/"
+var pathSource = "./images/"
 var numbersPreload = ['1','2','3','4','6','7','8','9']
 var images = []
 for(i=0;i<numbersPreload.length;i++){
